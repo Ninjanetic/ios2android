@@ -104,7 +104,7 @@ for ii in *.jpg *.png; do
             if [[ ${x} =~ -568h ]]; then
                 x=${x/-568h./.}
             fi
-            x=${x/-/_}
+            x=${x//-/_}
 
             if [[ ${x} =~ ^[0-9] ]]; then
                 x="img_${x}"
